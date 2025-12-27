@@ -8,5 +8,6 @@ export default defineConfig({
         emptyOutDir: true,
         minify: "esbuild",
         sourcemap: true,
+        assetsInlineLimit: 10240,
     },
 });
