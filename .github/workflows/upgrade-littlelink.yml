@@ -31,10 +31,10 @@ jobs:
           rm -f .gitignore LICENSE.md README.md VERSION.md
           rm -f preview.html
 
-      - name: Move files
+      - name: Copy files
         run: |
-          mv ../littlelink/* .
-          mv ../littlelink-extended/* .
+          cp -r ../littlelink/* .
+          cp -r ../littlelink-extended/* .
 
       - name: Commit & Push
         continue-on-error: true
