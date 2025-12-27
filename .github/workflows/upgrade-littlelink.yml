@@ -1,0 +1,46 @@
+name: Upgrade LittleLink
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  upgrade:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v5
+
+      - name: Clone LittleLink
+        run: |
+          cd ..
+          git clone https://github.com/sethcottle/littlelink.git
+          cd littlelink
+          rm -rf ./.git ./.github ./docker
+          rm -f .gitignore .pre-commit-config.yaml LICENSE.md README.md VERSION.md
+          rm -f index.html privacy.html
+
+      - name: Clone LittleLink Extended
+        run: |
+          cd ..
+          git clone https://github.com/sethcottle/littlelink-extended.git
+          cd littlelink-extended
+          rm -rf ./.git
+          rm -f .gitignore LICENSE.md README.md VERSION.md
+          rm -f preview.html
+
+      - name: Move files
+        run: |
+          mv ../littlelink/* .
+          mv ../littlelink-extended/* .
+
+      - name: Commit & Push
+        continue-on-error: true
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "Upgrade LittleLink: $(date +%Y-%m-%d_%H-%M-%S)"
+          git push
