@@ -25,6 +25,7 @@
     "homepage": "https://github.com/SunsetMkt/my-littlelink-extended#readme",
     "devDependencies": {
         "prettier": "^3.7.4",
-        "vite": "^7.3.0"
+        "vite": "^7.3.0",
+        "vite-plugin-html": "^3.2.2"
     }
 }
