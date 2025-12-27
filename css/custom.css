@@ -1,0 +1,9 @@
+/*  
+* SVGs downloaded from https://fontawesome.com/search are black by default
+* This makes them white.
+*/
+.fontawesome {
+    filter: brightness(0) invert(1);
+    width: 1.5em;
+    height: 1.5em;
+}
