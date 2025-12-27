@@ -7,3 +7,11 @@
     width: 1.5em;
     height: 1.5em;
 }
+
+/* Custom font */
+body {
+    font-family:
+        "HarmonyOS Sans SC", "PingFang SC", "Hiragino Sans GB",
+        "Droid Sans Fallback", "Microsoft YaHei", "Lato", sans-serif;
+    transition: all 0.3s ease-in-out;
+}
