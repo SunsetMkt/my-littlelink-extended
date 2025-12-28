@@ -8,6 +8,13 @@ function loadOptimizedAvatar() {
   const avatarImg = document.querySelector(".avatar");
   if (!avatarImg) return;
 
+  // Validate that we have the expected image arrays
+  if (!Array.isArray(avatarWebp) || avatarWebp.length < 2 ||
+      !Array.isArray(avatarJpg) || avatarJpg.length < 2) {
+    console.warn("Image optimization arrays are not in expected format");
+    return;
+  }
+
   // Create a picture element
   const picture = document.createElement("picture");
 
