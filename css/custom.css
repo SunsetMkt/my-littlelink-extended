@@ -15,3 +15,26 @@ body {
         "Droid Sans Fallback", "Microsoft YaHei", "Lato", sans-serif !important;
     transition: all 0.3s ease-in-out;
 }
+
+/* Fix SVG shaking on button hover
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.button,
+button {
+    /* Force hardware acceleration for the entire button */
+    will-change: transform;
+    transform: translateZ(0);
+}
+
+.button:hover,
+button:hover {
+    /* Override to maintain hardware acceleration during hover */
+    transform: translateY(-1px) translateZ(0);
+}
+
+.button .icon,
+button .icon {
+    /* Prevent SVG sub-pixel rendering issues */
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+    transform: translateZ(0);
+}
