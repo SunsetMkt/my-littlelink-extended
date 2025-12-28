@@ -8,24 +8,28 @@
 /* Brand Button Base Styles
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 /* Only include brand-specific button styling here */
-.button,button {
-  color:var(--button-text,#000000);
-  background-color:var(--button-background,transparent);
-  border:var(--button-border,none);
-  transition:filter 0.2s ease,transform 0.2s ease;
+.button,
+button {
+    color: var(--button-text, #000000);
+    background-color: var(--button-background, transparent);
+    border: var(--button-border, none);
+    transition:
+        filter 0.2s ease,
+        transform 0.2s ease;
 }
 
 /* Global Button Hover Effect
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.button:hover,button:hover {
-  filter:brightness(90%);
-  transform:translateY(-1px);
+.button:hover,
+button:hover {
+    filter: brightness(90%);
+    transform: translateY(-1px);
 }
 
 /* Button Icons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .icon {
-  filter:var(--icon-filter,none);
+    filter: var(--icon-filter, none);
 }
 
 /* Brand-Specific Styles
@@ -33,459 +37,459 @@
 
 /* 500px */
 .button-500px {
-  --button-text:#000000;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #000000;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid #000000;
 }
 
 /* Alpha Universe */
 .button-alphauniverse {
-  --button-text:#FFFFFF;
-  --button-background:#000000;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #000000;
+    --button-border: 1px solid #ffffff;
 }
 
 /* AniList */
 .button-anilist {
-  --button-text:#FFFFFF;
-  --button-background:#2B2D42;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #2b2d42;
+    --button-border: 1px solid #ffffff;
 }
 
 /* Audiomack */
 .button-audiomack {
-  --button-text:#FFFFFF;
-  --button-background:#000000;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #000000;
+    --button-border: 1px solid #ffffff;
 }
 
 /* Babylist */
 .button-babylist {
-	--button-text:#FFFFFF;
-	--button-background:#6E3264;
-	--button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #6e3264;
+    --button-border: 1px solid #ffffff;
 }
 
 /* Bandsintown */
 .button-bandsintown {
-  --button-text:#FFFFFF;
-  --button-background:#000000;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #000000;
+    --button-border: 1px solid #ffffff;
 }
 
 /* BeReal */
 .button-bereal {
-  --button-text:#FFFFFF;
-  --button-background:#000000;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #000000;
+    --button-border: 1px solid #ffffff;
 }
 
 /* Big Cartel */
 .button-bigcartel {
-  --button-text:#FFFFFF;
-  --button-background:#222222;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #222222;
+    --button-border: 1px solid #ffffff;
 }
 
 /* Bonfire */
 .button-bonfire {
-  --button-text:#FFFFFF;
-  --button-background:#F49979;
-  --button-border:1px solid #3D4853;
+    --button-text: #ffffff;
+    --button-background: #f49979;
+    --button-border: 1px solid #3d4853;
 }
 
 /* Cameo */
 .button-cameo {
-  --button-text:#FFFFFF;
-  --button-background:#000000;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #000000;
+    --button-border: 1px solid #ffffff;
 }
 
 /* Clubhouse */
 .button-clubhouse {
-  --button-text:#1F1F1A;
-  --button-background:#F1EFE3;
-  --button-border:1px solid #212121;
+    --button-text: #1f1f1a;
+    --button-background: #f1efe3;
+    --button-border: 1px solid #212121;
 }
 
 /* Codeberg */
 .button-codeberg {
-  --button-text:#FFFFFF;
-  --button-background:#2185D0;
+    --button-text: #ffffff;
+    --button-background: #2185d0;
 }
 
 /* Codepen */
 .button-codepen {
-  --button-text:#000000;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #000000;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid #000000;
 }
 
 /* Deezer */
 .button-deezer {
-  --button-text:#FFFFFF;
-  --button-background:#181818;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #181818;
+    --button-border: 1px solid #ffffff;
 }
 
 /* Devpost */
 .button-devpost {
-  --button-text:#FFFFFF;
-  --button-background:#003E54;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #003e54;
+    --button-border: 1px solid #ffffff;
 }
 
 /* Distiller */
 .button-dist {
-  --button-text:#FFFFFF;
-  --button-background:#ED5C47;
+    --button-text: #ffffff;
+    --button-background: #ed5c47;
 }
 
 /* Filmweb */
 .button-filmweb {
-  --button-text:#FFFFFF;
-  --button-background:#000000;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #000000;
+    --button-border: 1px solid #ffffff;
 }
 
 /* Flashes */
 .button-flashes {
-  --button-text:#FFFFFF;
-  background-image:linear-gradient(160deg, #022869, #0045B4, #19A5F5);
+    --button-text: #ffffff;
+    background-image: linear-gradient(160deg, #022869, #0045b4, #19a5f5);
 }
 
 /* GOG */
 .button-gog {
-  --button-text:#FFFFFF;
-  --button-background:#303030;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #303030;
+    --button-border: 1px solid #ffffff;
 }
 
 /* Gravatar */
 .button-gravatar {
-  --button-text:#101517;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #E0E0E0;
+    --button-text: #101517;
+    --button-background: #ffffff;
+    --button-border: 1px solid #e0e0e0;
 }
 
 /* Guilded */
 .button-guilded {
-  --button-text:#000000;
-  --button-background:#F5C400;
+    --button-text: #000000;
+    --button-background: #f5c400;
 }
 
 /* Gumroad */
 .button-gumroad {
-  --button-text:#FFFFFF;
-  --button-background:#000000;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #000000;
+    --button-border: 1px solid #ffffff;
 }
 
 /* HackerEarth */
 .button-hackerearth {
-  --button-text:#FFFFFF;
-  --button-background:#2B3352;
+    --button-text: #ffffff;
+    --button-background: #2b3352;
 }
 
 /* HackerRank */
 .button-hackerrank {
-  --button-text:#000000;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #000000;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid #000000;
 }
 
 /* itch.io */
 .button-itchio {
-  --button-text:#FFFFFF;
-  --button-background:#FA5C5C;
+    --button-text: #ffffff;
+    --button-background: #fa5c5c;
 }
 
 /* Keybase */
 .button-keybase {
-  --button-text:#000000;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #000000;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid #000000;
 }
 
 /* Layers */
 .button-layers {
-  --button-text:#000000;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #000000;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid #000000;
 }
 
 /* LeetCode */
 .button-leetcode {
-  --button-text:#000000;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #000000;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid #000000;
 }
 
 /* Lemmy */
 .button-lemmy {
-  --button-text:#FFFFFF;
-  --button-background:#14854F;
+    --button-text: #ffffff;
+    --button-background: #14854f;
 }
 
 /* ListenBrainz */
 .button-listenbrainz {
-  --button-text:#000000;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #000000;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid #000000;
 }
 
 /* Matrix Alt */
 .button-matrix-alt {
-  --button-text:#FFFFFF;
-  --button-background:#000000;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #000000;
+    --button-border: 1px solid #ffffff;
 }
 
 /* Micro.blog */
 .button-microblog {
-  --button-text:#FFFFFF;
-  --button-background:#FD9927;
+    --button-text: #ffffff;
+    --button-background: #fd9927;
 }
 
 /* Mixcloud */
 .button-mixcloud {
-  --button-text:#FFFFFF;
-  --button-background:#5000FF;
+    --button-text: #ffffff;
+    --button-background: #5000ff;
 }
 
 /* MyAnimeList */
 .button-myanimelist {
-  --button-text:#000000;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #000000;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid #000000;
 }
 
 /* NGL */
 .button-ngl {
-  --button-text:#FFFFFF;
-  background-image:linear-gradient(-45deg, #ff8d10, #ec1187);
+    --button-text: #ffffff;
+    background-image: linear-gradient(-45deg, #ff8d10, #ec1187);
 }
 
 /* Nostr */
 .button-nostr {
-  --button-text:#FFFFFF;
-  --button-background:#A915FF;
+    --button-text: #ffffff;
+    --button-background: #a915ff;
 }
 
 /* OP.GG */
 .button-opgg {
-  --button-text:#FFFFFF;
-  --button-background:#5383E8;
+    --button-text: #ffffff;
+    --button-background: #5383e8;
 }
 
 /* OpenSea */
 .button-opensea {
-  --button-text:#FFFFFF;
-  --button-background:#0086FF;
-  --button-border:1px solid #0086FF;
+    --button-text: #ffffff;
+    --button-background: #0086ff;
+    --button-border: 1px solid #0086ff;
 }
 
 /* OpenStreetMap */
 .button-osm {
-  --button-text:#000000;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #000000;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid #000000;
 }
 
 /* ORCID ID */
 .button-orcid-id {
-  --button-text:#000000;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #212121;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid #212121;
 }
 
 /* osu! */
 .button-osu {
-  --button-text:#000000;
-  --button-background:#FF8EE6;
+    --button-text: #000000;
+    --button-background: #ff8ee6;
 }
 
 /* Partiful */
 .button-partiful {
-  --button-text:#FFFFFF;
-  --button-background:#000000;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #000000;
+    --button-border: 1px solid #ffffff;
 }
 
 /* PeerTube */
 .button-peertube {
-  --button-text:#000000;
-  --button-background:#FCE8DB;
-  --button-border:1px solid #000000;
+    --button-text: #000000;
+    --button-background: #fce8db;
+    --button-border: 1px solid #000000;
 }
 
 /* Pixelfed */
 .button-pixelfed {
-  --button-text:#000000;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #000000;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid #000000;
 }
 
 /* PlayStation */
 .button-playstation {
-  --button-text:#FFFFFF;
-  --button-background:#0070D1;
+    --button-text: #ffffff;
+    --button-background: #0070d1;
 }
 
 /* Qobuz */
 .button-qobuz {
-  --button-text:#FFFFFF;
-  --button-background:#000000;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #000000;
+    --button-border: 1px solid #ffffff;
 }
 
 /* QQ */
 .button-qq {
-  --button-text:#000000;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #000000;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid #000000;
 }
 
 /* Ravelry */
 .button-ravelry {
-  --button-text:#000000;
-  --button-background:#F3F4F0;
-  --button-border:1px solid #000000;
+    --button-text: #000000;
+    --button-background: #f3f4f0;
+    --button-border: 1px solid #000000;
 }
 
 /* Redbubble */
 .button-redbubble {
-	--button-text:#e41321;
-	--button-background:#ffffff;
-	--button-border:1px solid #212121;
+    --button-text: #e41321;
+    --button-background: #ffffff;
+    --button-border: 1px solid #212121;
 }
 
 /* ResearchGate */
 .button-researchgate {
-  --button-text:#000000;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #212121;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid #212121;
 }
 
 /* Revolut */
 .button-revolut {
-	--button-text:#000000;
-	--button-background:#ffffff;
-	--button-border:1px solid black;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid black;
 }
 
 /* Roll20 */
 .button-roll20 {
-  --button-text:#FFFFFF;
-  --button-background:#EC008C;
+    --button-text: #ffffff;
+    --button-background: #ec008c;
 }
 
 /* SimpleX Chat */
 .button-simplex {
-  --button-text:#000000;
-  --button-background:#F3F6F7;
-  --button-border: 1px solid #000000;
+    --button-text: #000000;
+    --button-background: #f3f6f7;
+    --button-border: 1px solid #000000;
 }
 
 /* SimpleX Chat Alt */
 .button-simplex-alt {
-	--button-text:#FFFFFF;
-	--button-background:#000000;
-  --button-border: 1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #000000;
+    --button-border: 1px solid #ffffff;
 }
 
 /* Skoob */
 .button-skoob {
-  --button-text:#FFFFFF;
-  --button-background:#3189C8;
+    --button-text: #ffffff;
+    --button-background: #3189c8;
 }
 
 /* SpaceHey */
 .button-spacehey {
-  --button-text:#FFFFFF;
-  --button-background:#3234CF;
+    --button-text: #ffffff;
+    --button-background: #3234cf;
 }
 
 /* Tidal */
 .button-tidal {
-  --button-text:#FFFFFF;
-  --button-background:#000000;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #000000;
+    --button-border: 1px solid #ffffff;
 }
 
 /* Trakt */
 .button-trakt {
-	--button-text:#ffffff;
-	--button-background:#ED1C24;
+    --button-text: #ffffff;
+    --button-background: #ed1c24;
 }
 
 /* Untappd */
 .button-untappd {
-	--button-text:#000000;
-	--button-background:#ffc000;
+    --button-text: #000000;
+    --button-background: #ffc000;
 }
 
 /* Upwork */
 .button-upwork {
-	--button-text:#FFFFFF;
-	--button-background:#14A800;
+    --button-text: #ffffff;
+    --button-background: #14a800;
 }
 
 /* Vero */
 .button-vero {
-  --button-text:#FFFFFF;
-  --button-background:#000000;
-  --button-border:1px solid #FFFFFF;
+    --button-text: #ffffff;
+    --button-background: #000000;
+    --button-border: 1px solid #ffffff;
 }
 
 /* Viber */
 .button-viber {
-  --button-text:#FFFFFF;
-  --button-background:#7360F2;
+    --button-text: #ffffff;
+    --button-background: #7360f2;
 }
 
 /* VRChat */
 .button-vrchat {
-  --button-text:#000000;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #000000;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid #000000;
 }
 
 /* WIP */
 .button-wip {
-  --button-text:#000000;
-  --button-background:#F9DB00;
+    --button-text: #000000;
+    --button-background: #f9db00;
 }
 
 /* Write.as */
 .button-writeas {
-  --button-text:#000000;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #000000;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid #000000;
 }
 
 /* WriteFreely */
 .button-writefreely {
-  --button-text:#000000;
-  --button-background:#F4F4F4;
-  --button-border:1px solid #000000;
+    --button-text: #000000;
+    --button-background: #f4f4f4;
+    --button-border: 1px solid #000000;
 }
 
 /* Xbox */
 .button-xbox {
-  --button-text:#FFFFFF;
-  --button-background:#107C10;
+    --button-text: #ffffff;
+    --button-background: #107c10;
 }
 
 /* Xing */
 .button-xing {
-  --button-text:#FFFFFF;
-  --button-background:#026466;
+    --button-text: #ffffff;
+    --button-background: #026466;
 }
 
 /* Zalo */
 .button-zalo {
-  --button-text:#000000;
-  --button-background:#FFFFFF;
-  --button-border:1px solid #0068FF;
+    --button-text: #000000;
+    --button-background: #ffffff;
+    --button-border: 1px solid #0068ff;
 }
