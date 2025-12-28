@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import { createHtmlPlugin } from "vite-plugin-html";
+import { imagetools } from "vite-imagetools";
 
 export default defineConfig({
     root: ".",
@@ -12,6 +13,7 @@ export default defineConfig({
         assetsInlineLimit: 10240,
     },
     plugins: [
+        imagetools(),
         createHtmlPlugin({
             minify: {
                 collapseWhitespace: true,

@@ -1,4 +1,5 @@
 import "./sensitive-content.js";
+import "./images.js";
 
 function addScriptTag(src, async, onload) {
   var scriptElement = document.createElement("script");
