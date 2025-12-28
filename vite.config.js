@@ -1,5 +1,6 @@
 import { defineConfig } from "vite";
 import { createHtmlPlugin } from "vite-plugin-html";
+import { buildLinks } from "./build-links.js";
 
 export default defineConfig({
     root: ".",
@@ -20,6 +21,11 @@ export default defineConfig({
                 removeEmptyAttributes: true,
                 minifyCSS: true,
                 minifyJS: true,
+            },
+            inject: {
+                data: {
+                    linksSection: buildLinks(),
+                },
             },
         }),
     ],
