@@ -3,38 +3,38 @@
 * This makes them white.
 */
 .fontawesome {
-    filter: brightness(0) invert(1);
-    width: 1.5em;
-    height: 1.5em;
+  filter: brightness(0) invert(1);
+  width: 1.5em;
+  height: 1.5em;
 }
 
 /* Custom font */
 body {
-    font-family:
-        "HarmonyOS Sans SC", "PingFang SC", "Hiragino Sans GB",
-        "Droid Sans Fallback", "Microsoft YaHei", "Lato", sans-serif !important;
-    transition: all 0.3s ease-in-out;
+  font-family:
+    "HarmonyOS Sans SC", "PingFang SC", "Hiragino Sans GB",
+    "Droid Sans Fallback", "Microsoft YaHei", "Lato", sans-serif !important;
+  transition: all 0.3s ease-in-out;
 }
 
 /* Fix SVG shaking on button hover
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 .button,
 button {
-    /* Force hardware acceleration for the entire button */
-    will-change: transform;
-    transform: translateZ(0);
+  /* Force hardware acceleration for the entire button */
+  will-change: transform;
+  transform: translateZ(0);
 }
 
 .button:hover,
 button:hover {
-    /* Override to maintain hardware acceleration during hover */
-    transform: translateY(-1px) translateZ(0);
+  /* Override to maintain hardware acceleration during hover */
+  transform: translateY(-1px) translateZ(0);
 }
 
 .button .icon,
 button .icon {
-    /* Prevent SVG sub-pixel rendering issues */
-    backface-visibility: hidden;
-    -webkit-backface-visibility: hidden;
-    transform: translateZ(0);
+  /* Prevent SVG sub-pixel rendering issues */
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  transform: translateZ(0);
 }

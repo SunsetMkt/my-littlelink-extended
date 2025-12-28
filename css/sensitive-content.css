@@ -9,7 +9,7 @@ button styling from `brands.css` or `brands-extended`.css
 or create your own! */
 .button-sensitive {
   --button-text: #ffffff;
-  --button-background: #D72638;
+  --button-background: #d72638;
   --button-border: 1px solid #ffffff;
 }
 

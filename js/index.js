@@ -25,5 +25,5 @@ addScriptTag(
       isInConsole: false,
       moreInfoUrl: "https://war.ukraine.ua/",
     });
-  }
+  },
 );
