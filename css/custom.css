@@ -41,5 +41,7 @@ button .icon {
 
 /* Custom button colors */
 .button-keybase {
-    --button-background: #33a0ff;
+    --button-background: #33a0ff !important;
+    --button-text: #ffffff !important;
+    --button-border: none !important;
 }
