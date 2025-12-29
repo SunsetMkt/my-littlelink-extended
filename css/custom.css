@@ -38,3 +38,8 @@ button .icon {
     -webkit-backface-visibility: hidden;
     transform: translateZ(0);
 }
+
+/* Custom button colors */
+.button-keybase {
+    --button-background: #33a0ff;
+}
