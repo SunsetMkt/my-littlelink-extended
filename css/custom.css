@@ -13,6 +13,14 @@ body {
     font-family:
         "HarmonyOS Sans SC", "PingFang SC", "Hiragino Sans GB",
         "Droid Sans Fallback", "Microsoft YaHei", "Lato", sans-serif !important;
+}
+
+/* Trsnsitions */
+.container,
+.column,
+body,
+footer,
+a {
     transition: all 0.3s ease-in-out;
 }
 
