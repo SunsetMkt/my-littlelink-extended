@@ -24,11 +24,13 @@
     },
     "homepage": "https://github.com/SunsetMkt/my-littlelink-extended#readme",
     "devDependencies": {
-        "prettier": "^3.7.4",
-        "vite": "^8.0.16",
+        "esbuild": "^0.28.1",
+        "prettier": "^3.9.4",
+        "vite": "^8.1.3",
         "vite-plugin-html": "^3.2.2"
     },
     "dependencies": {
-        "canvas-confetti": "^1.9.4"
+        "canvas-confetti": "^1.9.4",
+        "npm-check-updates": "^22.2.9"
     }
 }
